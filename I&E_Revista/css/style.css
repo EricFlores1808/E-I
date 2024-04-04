@@ -10,8 +10,8 @@
 
 body {
     background: #0d0d0e;
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: -webkit-linear-gradient(to right, #1c6d5f, #214855, #137da7);
+    background: linear-gradient(to right, #1c6d5f, #214855, #137da7);
 
 }
 
@@ -38,6 +38,7 @@ body {
 .header .logo img:hover {
     transform: scale(1.2);
 }
+
 
 .header .nav-links {
     list-style: none;
@@ -113,23 +114,6 @@ h1 {
     color: white;
     text-align: center;
 }
-
-.noticias-e-sports {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.titulos-noticias {
-    color: antiquewhite;
-    justify-content: center;
-    align-items: center;
-}
-
-.titulos-noticias {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 
 @media (max-width: 480px) {
     .contenedor-item img {
