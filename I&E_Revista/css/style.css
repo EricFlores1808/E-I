@@ -9,12 +9,12 @@
 }
 
 body {
+    font-family: 'Times New Roman', Times, serif; 
     background: #0d0d0e;
     background: -webkit-linear-gradient(to right, #1c6d5f, #214855, #137da7);
     background: linear-gradient(to right, #1c6d5f, #214855, #137da7);
-
+    margin: 0;
 }
-
 
 .header {
     background-color: #0f0f0f;
@@ -38,7 +38,6 @@ body {
 .header .logo img:hover {
     transform: scale(1.2);
 }
-
 
 .header .nav-links {
     list-style: none;
@@ -64,17 +63,10 @@ body {
     color: #238ab6;
 }
 
-body {
-    margin: 0;
-}
-
 footer {
     background-color: #0F2027;
-    /* color de fondo del footer */
     color: #fff;
-    /* color de texto del footer */
     padding: 20px;
-    /* espacio interno del footer */
 }
 
 .footer-container {
@@ -115,6 +107,27 @@ h1 {
     text-align: center;
 }
 
+
+.img-thumbnail {
+    width: 500px; /* Establece el ancho deseado */
+    height: 350px; /* Establece la altura deseada */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
+}
+
+#Nuevos_Diseños {
+    font-family: "Times New Roman", Times, serif; /* Cambio de fuente */
+    font-size: 30px; /* Tamaño de fuente */
+    color: white; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.header {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+
 @media (max-width: 480px) {
     .contenedor-item img {
         display: none;
@@ -137,7 +150,6 @@ h1 {
 @media (max-width: 480px) {
     .contenedor-item img {
         display: none;
-
     }
 }
 

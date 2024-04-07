@@ -82,12 +82,15 @@ footer {
 
 .contenedor-item {
     display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
     background-color: #f1ece7b2;
-    font-size: medium;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .contenedor-item img {
-    height: 250px;
+    height: 500px;
     width: auto;
     justify-content: end;
 }
@@ -97,6 +100,35 @@ h1 {
     text-align: center;
 }
 
+
+.titulo {
+    font-family: "Times New Roman", Times, serif; /* Cambio de fuente */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 50px; /* Tamaño de fuente aumentado */
+    color: #ddd;
+    margin-top: 30px;
+}
+
+.subtitulo {
+    font-family: "Times New Roman", Times, serif; /* Cambio de fuente */
+    font-weight: bold;
+    color: #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bg-custom.text-white.py-4 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.subtitulo {
+    text-align: center;
+}
 
 @media (max-width: 480px) {
     .contenedor-item img {

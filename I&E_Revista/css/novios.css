@@ -82,18 +82,50 @@ footer {
 
 .contenedor-item {
     display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
     background-color: #f1ece7b2;
-    font-size: medium;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .contenedor-item img {
-    height: 250px;
-    width: auto;
+    height: 500px;
+    width: 400px;
     justify-content: end;
 }
 
 h1 {
     color: white;
+    text-align: center;
+}
+
+.titulo {
+    font-family: "Times New Roman", Times, serif; 
+    font-weight: bold; 
+    font-size: 50px; 
+    color: #ddd;
+    margin-top: 30px;
+}
+
+.subtitulo {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bg-custom.text-white.py-4 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+}
+
+.subtitulo {
     text-align: center;
 }
 

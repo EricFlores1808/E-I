@@ -78,7 +78,19 @@ form {
   margin: 50px auto;
 }
 
-/* Estilos para pantallas medianas */
+
+body, h1, label, input, .registrar p, .foot p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Cambiar el formato del botón */
+button.btn {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold; /* Hacer el texto en negrita */
+  font-size: 1.6em; /* Ajustar el tamaño de la fuente según sea necesario */
+}
+
+
 @media screen and (max-width: 768px) {
   form {
     width: 80%;
