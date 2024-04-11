@@ -10,14 +10,14 @@
 
 body {
     font-family: 'Times New Roman', Times, serif; 
-    background: #0d0d0e;
+    background: #070707;
     background: -webkit-linear-gradient(to right, #1c6d5f, #214855, #137da7);
     background: linear-gradient(to right, #1c6d5f, #214855, #137da7);
     margin: 0;
 }
 
 .header {
-    background-color: #0f0f0f;
+    background-color: #020202;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,7 +31,7 @@ body {
 
 .header .logo img {
     height: 80px;
-    width: auto;
+    width: 125px;
     transition: all 0.3s;
 }
 
@@ -60,11 +60,12 @@ body {
 }
 
 .header .nav-links li a:hover {
-    color: #238ab6;
+    color: #ffffff;
 }
 
+
 footer {
-    background-color: #0F2027;
+    background-color: #000000;
     color: #fff;
     padding: 20px;
 }
@@ -109,23 +110,25 @@ h1 {
 
 
 .img-thumbnail {
-    width: 500px; /* Establece el ancho deseado */
-    height: 350px; /* Establece la altura deseada */
-    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
+    width: 500px; 
+    height: 350px; 
+    object-fit: cover; 
 }
 
 #Nuevos_Diseños {
-    font-family: "Times New Roman", Times, serif; /* Cambio de fuente */
-    font-size: 30px; /* Tamaño de fuente */
-    color: white; /* Color del texto */
-    text-align: center; /* Centra el texto */
-    font-weight: bold; /* Texto en negrita */
+    font-family: "Times New Roman", Times, serif; 
+    font-size: 30px; 
+    color: white; 
+    text-align: center; 
+    font-weight: bold; 
 }
 
 .header {
     font-family: "Times New Roman", Times, serif;
     font-weight: bold;
 }
+
+
 
 
 @media (max-width: 480px) {

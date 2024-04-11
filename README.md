@@ -1,2 +1,3 @@
 # E&I
- página #1
+# Autores:  Ignacia Arancibia  -   Eric Flores.
+Link: https://github.com/EricFlores1808/E-I.git
